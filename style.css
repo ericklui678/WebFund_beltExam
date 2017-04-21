@@ -211,17 +211,19 @@
 }
 
 #footer{
-    background-color: yellow;
+    /*background-color: yellow;*/
     height: 300px;
 }
 
 #footerList{
     display: flex;
     justify-content: space-between;
+    background-color: silver;
+    height: 170px;
 }
 
 .footerBox{
-    background-color: red;
+    /*background-color: red;*/
     display: inline-block;
     vertical-align: top;
     height: 100px;
@@ -240,4 +242,15 @@
 .footerBox li{
     display: block;
     margin-top: 7pt;
+}
+
+#footerInfo li{
+    display: inline;
+    /*background-color: red;*/
+    height: 50px;
+    font-size: 6pt;
+}
+
+#footerInfo a{
+    color: blue;
 }
