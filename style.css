@@ -61,6 +61,13 @@
     margin-top: 2px;
 }
 
+#headerSearch #magnify{
+    margin-top: 16px;
+    height: 15px;
+    position: absolute;
+    right: 100px;
+}
+
 #headerSearch input{
     margin-left: 40px;
     margin-top: 14px;
@@ -73,11 +80,11 @@
 
 #headerSearch img{
     display: inline;
-    height: 19px;
+    height: 17px;
     vertical-align: top;
-    margin-top: 14px;
+    margin-top: 15px;
     position: absolute;
-    right: 22px;
+    right: 28px;
 }
 
 #wrapper #mainPic{
@@ -92,6 +99,10 @@
     padding-left: 10px;
     padding-top: 10px;
     color: #91bedd;
+}
+
+#mainBar #white{
+    color: white;
 }
 
 #mainBar li{
@@ -162,7 +173,7 @@
     padding: 0px 8px 0px 0px;
 }
 
-#title{
+.title{
     height: 40px;
 }
 
@@ -218,7 +229,7 @@
 #footerList{
     display: flex;
     justify-content: space-between;
-    background-color: silver;
+    /*background-color: silver;*/
     height: 170px;
 }
 
