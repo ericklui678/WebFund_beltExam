@@ -1,0 +1,243 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    /*background-color: yellow;*/
+    margin: auto;
+    margin-top: 50px;
+    width: 625px;
+    height: 500px;
+    font-family: sans-serif, serif;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+
+#header{
+    background: linear-gradient(#f7f7f5, #e0e0e0);
+    height: 45px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#headerLeft{
+    background: linear-gradent(#e0e0e0, #f7f7f5);
+    height: 50px;
+    width: 625px;
+    position: relative;
+}
+
+#headerLeft img{
+    height: 45px;
+    display:inline-block;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#headerLeft ul{
+    display: inline-block;
+    /*background-color: red;*/
+    vertical-align: top;
+    margin-top: 17px;
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 10pt;
+}
+
+#headerLeft ul li{
+    /*background-color:  blue;*/
+    display: inline;
+    padding: 17px 20px 17px 12px;
+    border-right: 1px solid white;
+}
+
+#headerSearch{
+    /*background-color: blue;*/
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 155px;
+    margin-top: 2px;
+}
+
+#headerSearch input{
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 80px;
+    height: 17px;
+    display: inline;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #e1e1e1;
+}
+
+#headerSearch img{
+    display: inline;
+    height: 19px;
+    vertical-align: top;
+    margin-top: 14px;
+    position: absolute;
+    right: 22px;
+}
+
+#wrapper #mainPic{
+    width: 625px;
+    display: block;
+}
+
+#wrapper #mainBar{
+    background: linear-gradient(#514f50, #343434);
+    border-radius: 0px 0px 5px 5px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #91bedd;
+}
+
+#mainBar li{
+    display: inline;
+    font-size: 7pt;
+    font-weight: 600;
+    vertical-align: top;
+    padding-right: 3px;
+}
+
+#lowerContent{
+    /*background-color: silver;*/
+    height: 300px;
+    width: 625px;
+}
+
+#lowerContent #upper{
+    /*background-color: yellow;*/
+    width: 625px;
+    height: 100px;
+}
+
+#lowerContent #upper h1{
+    font-weight: 100;
+    font-size: 15pt;
+    padding-top: 38px;
+    margin-left: 11px;
+    display: inline-block;
+    color: #b1b1b1;
+}
+
+#lowerContent #upper button{
+    background: linear-gradient(#5794c1, #3e6f8f);
+    color: #e0f2ff;
+    font-weight: 100;
+    font-size: 9pt;
+    height: 30px;
+    width: 170px;
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+}
+
+#lower{
+    /*background-color: blue;*/
+    width: 625px;
+    height: 300px;
+}
+
+#lower #media{
+    /*background-color: yellow;*/
+    width: 585px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 15px 20px;
+    border: 1px solid #dbdbdb;
+}
+
+#media .mediaBox{
+    /*background-color: silver;*/
+    width: 130px;
+    height: 170px;
+    display: inline-block;
+    font-size: 8pt;
+    /*border-right: 1px solid #dbdbdb;*/
+    padding: 0px 8px 0px 0px;
+}
+
+#title{
+    height: 40px;
+}
+
+.mediaBox .icon{
+    width: 25px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.mediaBox .boldHead{
+    font-size: 8pt;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+}
+
+.mediaBox p{
+    font-size: 6.5pt;
+    height: 35px;
+}
+
+.mediaBox .mediaImg{
+    width: 130px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+.mediaBox button{
+    background: linear-gradient(#5fb7f7, #5ba4db);
+    height: 25px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+#borderSpace{
+    /*background-color: blue;*/
+    width: 625px;
+    height: 40px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 40px;
+}
+
+#footer{
+    background-color: yellow;
+    height: 300px;
+}
+
+#footerList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBox{
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    width: 100px;
+}
+
+.footerBox h5{
+    font-size: 8pt;
+}
+
+.footerBox ul{
+    font-size: 6pt;
+    margin-top: 20px;
+}
+
+.footerBox li{
+    display: block;
+    margin-top: 7pt;
+}
